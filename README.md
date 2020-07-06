@@ -1,1 +1,3 @@
-# covid-tracker
+# ESP32 presence detector
+
+An ESP32 based presence detection. To work propertly, it need to be 2 devices with the same code. Resuming, the device scan for iBeacon devices, at the same time advertise itself as a iBeacon device. To detect a device, it should have the same UUID, with this the devices can ignore others bluetooth devices and only turn on built in led a presence of other device with a similar UUID device.
